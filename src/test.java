@@ -3,10 +3,10 @@
  *
  * just for testing
  *
- * Created by renjiezhu on 7/19/17.
+ *
  * @author Renjie Zhu
  * @version 0.0
- *
+ * @since 7/19/17
  */
 public class test {
     public static void main(String[] args) {
@@ -14,7 +14,9 @@ public class test {
         FileManipulate
                 file = new FileManipulate("Hello World"),
                 file2 = new FileManipulate(),
-                file3 = new FileManipulate(" ", " ", " ");
-        file.newFile(file.getPath(), file.getFilename());
+                file3 = new FileManipulate("test", "/Users/renjiezhu/Desktop/", "default3.txt");
+
+        file.setMessage("go ahead and append");
+        file.writeFile();
     }
 }

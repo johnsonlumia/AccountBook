@@ -3,8 +3,9 @@
  * Currency type and exchange rate included
  *
  *
- * Created by renjiezhu on 7/19/17.
  * @author renjiezhu
+ * @version 0.0
+ * @since 7/19/17
  */
 enum Currency {
     CNY("Chinese Yuan", 1.0),
