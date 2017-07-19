@@ -7,7 +7,7 @@ An account book to keep track of all transactions of
 
 Current thoughts:
 
-* Write to and read from an excel file
+* Write to and read from an ~~excel~~ file
   * Easier exportation
 
 * Information needed
