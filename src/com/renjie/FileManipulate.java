@@ -1,3 +1,5 @@
+package com.renjie;
+
 import java.io.*;
 
 /**
@@ -29,7 +31,7 @@ class FileManipulate {
     /**
      * constructor
      *
-     * When new objects of FileManipulate is created,
+     * When new objects of com.renjie.FileManipulate is created,
      * a new file is created accordingly.
      *
      * Default constructor
@@ -45,7 +47,7 @@ class FileManipulate {
     /**
      * constructor
      *
-     * When new objects of FileManipulate is created,
+     * When new objects of com.renjie.FileManipulate is created,
      * a new file is created accordingly.
      *
      * @param message new object with a single message at default *filepath*
@@ -61,7 +63,7 @@ class FileManipulate {
     /**
      * constructor
      *
-     * When new objects of FileManipulate is created,
+     * When new objects of com.renjie.FileManipulate is created,
      * a new file is created accordingly.
      *
      * @param message new object with a single message

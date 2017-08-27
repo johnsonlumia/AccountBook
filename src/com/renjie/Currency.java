@@ -1,6 +1,8 @@
+package com.renjie;
+
 /**
- * Currency normally used
- * Currency type and exchange rate included
+ * com.renjie.Currency normally used
+ * com.renjie.Currency type and exchange rate included
  *
  *
  * @author renjiezhu

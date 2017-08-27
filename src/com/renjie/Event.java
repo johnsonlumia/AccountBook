@@ -1,5 +1,7 @@
+package com.renjie;
+
 /**
- * Usage
+ * com.renjie.Usage
  *
  *
  * @author renjiezhu
@@ -11,7 +13,11 @@ import java.util.ArrayList;
 
 class Event {
 
+    /*
+     * field
+     */
     private User payer = new User();
+
     private ArrayList<User> payees = new ArrayList<User>();
 
     private Usage usage = null;
@@ -21,6 +27,10 @@ class Event {
     private Currency currency = null;
 
     private String description = "";
+
+    /*
+     * getters and setters
+     */
 
     public User getPayer() {
         return payer;
@@ -75,7 +85,7 @@ class Event {
         User temp = new User("name", 100.0);
         setPayer(temp);
         setCurrency(Currency.USD);
-        setDescription("test description");
+        setDescription("com.renjie.test description");
 
     }
 

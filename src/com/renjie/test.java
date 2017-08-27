@@ -1,3 +1,5 @@
+package com.renjie;
+
 /**
  * AccountBook testing main function.
  *
@@ -13,8 +15,8 @@ public class test {
 
         FileManipulate
                 file1 = new FileManipulate("Hello World");
-//                file2 = new FileManipulate(),
-//                file3 = new FileManipulate("test", "/Users/renjiezhu/Desktop/", "default3.txt");
+//                file2 = new com.renjie.FileManipulate(),
+//                file3 = new com.renjie.FileManipulate("com.renjie.test", "/Users/renjiezhu/Desktop/", "default3.txt");
 //
 //        file3.setMessage("go ahead and append");
 //        file3.writeFile();

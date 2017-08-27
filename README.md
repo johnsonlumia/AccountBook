@@ -11,8 +11,8 @@ Current thoughts:
   * Easier exportation
 
 * Information needed
-  * User
-  * Currency
+  * com.renjie.User
+  * com.renjie.Currency
   * Type
   * Amount
   * Description

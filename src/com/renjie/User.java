@@ -1,3 +1,4 @@
+package com.renjie;
 
 class User {
 
@@ -12,6 +13,22 @@ class User {
     User(String name, double balance) {
         this.name = name;
         this.balance = balance;
+    }
+
+    protected String getName() {
+        return name;
+    }
+
+    protected double getBalance() {
+        return balance;
+    }
+
+    protected void setBalance(double balance) {
+        this.balance = balance;
+    }
+
+    protected void modifyBalance(double changeInBalance) {
+
     }
 
     @Override

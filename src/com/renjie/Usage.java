@@ -1,5 +1,7 @@
+package com.renjie;
+
 /**
- * Usage
+ * com.renjie.Usage
  *
  *
  * @author renjiezhu
