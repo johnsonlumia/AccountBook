@@ -11,7 +11,7 @@ Current thoughts:
   * Easier exportation
 
 * Information needed
-  * Payer
+  * User
   * Currency
   * Type
   * Amount

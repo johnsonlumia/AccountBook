@@ -163,4 +163,8 @@ class FileManipulate {
         // store the content of the file in the field information
     }
 
+    @Override
+    public String toString() {
+        return "Message written at" + getPath() + getFilename();
+    }
 }

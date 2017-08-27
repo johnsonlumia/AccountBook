@@ -12,11 +12,15 @@ public class test {
     public static void main(String[] args) {
 
         FileManipulate
-            //    file = new FileManipulate("Hello World"),
-              //  file2 = new FileManipulate(),
-                file3 = new FileManipulate("test", "/Users/renjiezhu/Downloads/", "default3.txt");
+                file1 = new FileManipulate("Hello World");
+//                file2 = new FileManipulate(),
+//                file3 = new FileManipulate("test", "/Users/renjiezhu/Desktop/", "default3.txt");
+//
+//        file3.setMessage("go ahead and append");
+//        file3.writeFile();
 
-        file3.setMessage("go ahead and append");
-        file3.writeFile();
+        Event event1 = new Event();
+        file1.setMessage(event1.toString());
+        file1.writeFile();
     }
 }
